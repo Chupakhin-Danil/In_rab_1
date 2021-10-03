@@ -1,0 +1,89 @@
+@media(max-width: 1400px)
+{
+    #conteiner
+    {
+       flex-direction: column-reverse;
+       width: 100%;
+       margin: 0;
+    }
+    .new-collection
+    {
+        width: 80%;
+    }
+    .new-season 
+    {
+        width: 80%;
+    }
+    .card 
+    {
+        width: 100%;
+    }
+    /* .card .clock
+    {
+        width: 100%;
+    /* } */
+} 
+@media(max-width: 1110px)
+{
+.top-line
+{
+    width: 100%;
+    justify-content: space-around;
+}
+.s-line
+{
+    width: 100%;
+    justify-content: space-around;
+
+}
+.line-photo
+{
+    height: 100%;;
+    width: 100%;
+    background-size: cover;
+
+}
+.last-line
+{
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.our-brand
+{
+    width: 100%;
+}
+.brand-photo
+{
+    width: 100%;
+    flex-direction: column;
+}
+.new-goods
+{
+    width: 100%;
+}
+.new-goods .card
+{
+    width: 100%;
+    flex-wrap:wrap;
+}
+}
+@media(max-width:900px)
+{
+    .collection-2018
+    {
+        flex-direction: column;
+        height: 800px;
+    }
+    .new-season .card
+    {
+        width: 100%;
+        flex-wrap:wrap;
+    
+    }
+    .new-season
+    {
+        height: auto; 
+    }
+}
